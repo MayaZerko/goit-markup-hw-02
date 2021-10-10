@@ -1,0 +1,122 @@
+/*
+основной цвет текста #212121
+вторичный цвет текста #757575
+акцент #2196F3
+белый #FFFFFF
+белый с прозрачностью rgba(255, 255, 255, 0.6)
+цвет фона вторичный #F5F4FA
+темный цвет фона #2F303A
+*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --white-opacity-color: rgba(255, 255, 255, 0.6);
+  --secondary-background-color: #f5f4fa;
+  --dark-backgroud-color: #2f303a;
+  --black-color: #000000;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  color: inherit;
+}
+
+/*logo*/
+
+.logo {
+  color: var(--accent-color);
+}
+.logo-web-dark {
+  color: var(--black-color);
+}
+.logo-web-light {
+  color: var(--white-color);
+}
+
+/*button*/
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+}
+.button.primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/*site nav*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contact-nav .contact-link {
+  color: var(--primary-text-color);
+}
+.contact-nav .contact-link:hover,
+.contact-nav .contact-link:focus {
+  color: var(--accent-color);
+}
+
+/*hero*/
+
+.hero {
+  background-color: var(--dark-backgroud-color);
+}
+.title-hero {
+  color: var(--white-color);
+}
+
+/*section*/
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*company ideal*/
+
+.company-ideal .title {
+  color: var(--title-text-color);
+}
+
+/*our team section*/
+
+.team-section {
+  background-color: var(--secondary-background-color);
+}
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/*footer*/
+
+.footer-section {
+  background-color: var(--dark-backgroud-color);
+}
+
+.address-footer {
+  color: var(--white-opacity-color);
+}
+.address-footer .address {
+  color: var(--white-color);
+}
