@@ -57,7 +57,7 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
 
@@ -68,6 +68,7 @@ body {
   background-color: var(--accent-color);
 }
 .portfolio-button {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -103,6 +104,10 @@ body {
 .contact-nav .contact-link {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contact-nav .contact-link:hover,
 .contact-nav .contact-link:focus {
@@ -185,6 +190,10 @@ body {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+}
+
+.address-footer .contact-link {
+  color: var(--white-opacity-color);
 }
 .address-footer .address {
   color: var(--white-color);
